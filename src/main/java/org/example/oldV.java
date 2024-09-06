@@ -15,7 +15,7 @@ public class oldV{
                 if (path == 1)
                     result = 3;
                 if (path == 2)
-                    result = 13;
+                    result = 13+5;//change
             }
             else {
                 if (path == 1)
@@ -24,6 +24,7 @@ public class oldV{
                     result = 14;
             }
         }
+        result = result+10;
         return result;
     }
 }
